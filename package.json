@@ -2,15 +2,18 @@
   "name": "profbackend",
   "version": "1.0.0",
   "description": "contains the main project code for the project",
+  "type": "module",
   "keywords": [
     "backend",
     "javascript"
   ],
   "license": "ISC",
   "author": "vinod",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.14"
   }
 }
